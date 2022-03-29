@@ -1,0 +1,13 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  build_app:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: go build cmd/app/main.go

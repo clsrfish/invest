@@ -1,0 +1,16 @@
+{
+    "mongoRunner": {
+        "connections": [
+            {
+                "url": "mongodb://localhost:27017"
+            }
+        ]
+    },
+    "redis-console.host": "localhost",
+    "redis-console.port": 6379,
+    "redis-console.password": "",
+    "redis-console.hostIpFamily": 4,
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///Users/clsrfish/Projects/Golang/github.com/clsrfish/invest/.github/workflows/build.yml"
+    }
+}
