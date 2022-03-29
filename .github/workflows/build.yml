@@ -10,4 +10,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-go@v3
+        with:
+          go-version: '1.18'
       - run: go build cmd/app/main.go
