@@ -1,5 +1,7 @@
 # Invest books
 
+[![Deploy Status](https://github.com/clsrfish/invest/workflows/Build/badge.svg)](https://github.com/clsrfish/invest/actions)
+
 Get the most popular books about investment.
 
 ## Getting started
