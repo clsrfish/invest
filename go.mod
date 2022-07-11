@@ -3,7 +3,7 @@ module github.com/clsrfish/invest
 go 1.18
 
 require (
-	github.com/samber/lo v1.11.0
+	github.com/samber/lo v1.25.0
 	github.com/sirupsen/logrus v1.8.1
 )
 
